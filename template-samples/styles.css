@@ -1,0 +1,38 @@
+.page-header{
+	margin-bottom:20px;
+}
+.snippet-entry {
+	background: white;
+	margin: 0px 10%;
+	padding: 10px;
+	border-bottom:1px solid gray;
+	font-size:15px;
+	min-height:67px;
+}
+.snippet-title, .snippet-date {
+	float:left;
+}
+.snippet-title {
+	font-weight:bold;
+}
+.snippet-file, .snippet-lang {
+	float:right;
+	text-align:right;
+}
+.snippet-lang {
+	font-size:12px;
+}
+.clear { clear:both; }
+
+.entry-content {
+	padding:0px;
+	margin:0px;
+}
+
+.snippetDescription {
+	padding:0 5%;
+}
+
+.ace_editor {
+	width:100%;
+}

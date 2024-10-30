@@ -1,0 +1,37 @@
+.cs_editor { 
+	border:1px solid gray
+}
+.ace_editor { 
+	width:100%;
+	font-size:13px;
+	position: relative; 
+}
+.ace_scroller {
+	cursor: default;
+}
+.clear { clear:both; }
+.snippetDescription {
+	width:100%;
+	margin: 0px 0px 25px 0px;
+}
+.snippetMetabar_outer {
+	width:100%;
+	border:1px solid gray;
+	padding:5px 5px;
+	display:inline-block;
+	font-size:14px;
+	background:white;
+	color:#5F5F5F;
+}
+.snippetMetabar_left {
+	float:left;
+}
+.snippetMetabar_right {
+	float:right;
+}
+.snippetFileIcon {
+	margin-top:1px;
+}
+.snippetMetabar_empty {
+	margin-bottom:10px;
+}

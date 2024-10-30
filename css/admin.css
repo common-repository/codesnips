@@ -1,0 +1,61 @@
+.clear { clear:both; }
+
+/* Hide the default wp-editor on the admin page */
+.post-type-snippets .postarea { display:none; }
+
+#editor { 
+	height:500px;
+	width:100%;
+	border:1px solid gray
+}
+.ace_editor { 
+	font-size:13px;
+	position: relative; 
+}
+.langBox {
+	margin:10px 0px 25px 0px;
+}
+.postbox .hndle:hover {
+	cursor:default;
+}
+.handlediv { display:none;}
+
+.cs-icon:before {
+	font-family: "dashicons";
+	content: "\f475";
+	color: #23282d;
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	font-size: 30px;
+	margin-right:10px;
+	vertical-align: top;
+}
+.cs-icon, .cs-icon h2 {
+	float:left;
+	margin-right:15px;
+}
+
+.codesnips-settings-wrapper {
+	width:100%;
+	display:table;
+}
+.codesnips-settings-body {
+	display:table-cell;
+	width:100%;
+}
+.codesnips-donate-wrapper {
+	display: table-cell;
+	width:250px;
+    height: 500px;
+    vertical-align: top;
+	padding-left:25px;
+}
+.codesnips-donate-body {
+	background:white;
+	width:250px;
+	border:1px gray solid;
+}
+.codesnips-donate-body, .codesnips-donate-body img {
+	display:block;
+	padding:7px;
+}
